@@ -5,6 +5,157 @@
 	(uuid "84386131-baa8-4461-befc-fd93c7b20092")
 	(paper "A4")
 	(lib_symbols
+		(symbol "284391_3:284391-3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J9"
+				(at 6.35 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "284391-3"
+				(at 6.35 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "284391_3:TE_284391-3"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "284391-3_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1656,150 +1807,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TB007-508-03BE_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J1"
-				(at 6.35 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TB007-508-03BE"
-				(at 6.35 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "CUI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TB007-508-03BE_2_0_0"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "Signal"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TB007-508-03BE_2_1_0"
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1923,12 +1930,56 @@
 		(uuid "e01acb26-5c3f-46fb-b63d-f32631ccea57")
 	)
 	(no_connect
-		(at 113.03 78.74)
-		(uuid "1226de44-b113-4b00-912d-ba4c058bca31")
+		(at 106.68 30.48)
+		(uuid "20a813e2-4147-4f60-b1fa-5b958bf42fcd")
+	)
+	(no_connect
+		(at 138.43 106.68)
+		(uuid "2162abdc-dda7-40c3-b3f7-6b50acc944fd")
+	)
+	(no_connect
+		(at 151.13 99.06)
+		(uuid "2e85d0a4-88fe-4b7f-b844-5666291c810e")
+	)
+	(no_connect
+		(at 138.43 114.3)
+		(uuid "3fc879bc-b1bd-405a-ab98-2a015f6dcb51")
+	)
+	(no_connect
+		(at 85.09 30.48)
+		(uuid "502b61f3-beb6-4b1f-a9d1-e308cdb8a90f")
+	)
+	(no_connect
+		(at 138.43 101.6)
+		(uuid "53e04408-e034-48ea-83d8-ec51c3adfa33")
+	)
+	(no_connect
+		(at 138.43 76.2)
+		(uuid "54fc9233-41df-4472-b785-67f71c8bf991")
+	)
+	(no_connect
+		(at 138.43 109.22)
+		(uuid "5a42b29f-056c-43c9-b5ea-77656c058f20")
 	)
 	(no_connect
 		(at 118.11 77.47)
 		(uuid "6606eb83-f93f-4bc8-bc9c-977eecd1f79a")
+	)
+	(no_connect
+		(at 138.43 96.52)
+		(uuid "69cc193e-2506-4b38-b12f-c3bb155332b6")
+	)
+	(no_connect
+		(at 138.43 88.9)
+		(uuid "6de78198-afa2-42bb-9b7a-5c620267e7be")
+	)
+	(no_connect
+		(at 151.13 116.84)
+		(uuid "710fe3f0-44da-46f3-9885-dba494b2188f")
+	)
+	(no_connect
+		(at 151.13 78.74)
+		(uuid "7ff2279b-78fd-4a6f-a4e1-d08d0b11d6b7")
 	)
 	(no_connect
 		(at 107.95 80.01)
@@ -1939,8 +1990,104 @@
 		(uuid "8d40eb69-4aca-432f-b435-59fdcdbf1c30")
 	)
 	(no_connect
+		(at 151.13 106.68)
+		(uuid "8f97dd7d-7a4d-4c32-8b0e-9fa57c1c564b")
+	)
+	(no_connect
+		(at 151.13 101.6)
+		(uuid "92ef72ca-7edd-4291-b2a0-3a5e53eccd52")
+	)
+	(no_connect
+		(at 138.43 119.38)
+		(uuid "93f46553-bdea-4ae0-a08b-e7a9f3e4bfe0")
+	)
+	(no_connect
+		(at 138.43 104.14)
+		(uuid "968d7637-d151-4bdb-b041-9fde73b27c6d")
+	)
+	(no_connect
+		(at 138.43 93.98)
+		(uuid "9afcaf43-83c7-4860-8c99-21ff609dd8b8")
+	)
+	(no_connect
+		(at 138.43 78.74)
+		(uuid "9cd67669-5c8a-4126-9f41-dfcdad84fc53")
+	)
+	(no_connect
+		(at 138.43 111.76)
+		(uuid "9d808bd4-9966-495e-8b98-69d46fa2cf9f")
+	)
+	(no_connect
+		(at 151.13 104.14)
+		(uuid "a011e8ae-676e-4380-91bf-9063f5d3833f")
+	)
+	(no_connect
+		(at 138.43 91.44)
+		(uuid "a4710063-24ae-4319-9987-b05921aa8735")
+	)
+	(no_connect
+		(at 151.13 109.22)
+		(uuid "a522eeb9-d0bf-4c5b-b724-749807d28ce9")
+	)
+	(no_connect
+		(at 106.68 40.64)
+		(uuid "a5b02731-cf5d-4aec-b2fb-b3ea2638cdd5")
+	)
+	(no_connect
+		(at 151.13 96.52)
+		(uuid "a97bca3e-b473-406c-a652-9993cb9d8c2a")
+	)
+	(no_connect
 		(at 118.11 80.01)
 		(uuid "b7fa9f23-6cda-4726-80eb-3a55b29a6c49")
+	)
+	(no_connect
+		(at 151.13 119.38)
+		(uuid "b80ab010-a8da-41f0-af0d-a5e215e94082")
+	)
+	(no_connect
+		(at 138.43 124.46)
+		(uuid "cc5c7076-684d-4969-af60-20b3a62835a2")
+	)
+	(no_connect
+		(at 138.43 116.84)
+		(uuid "d0457110-2334-4480-9098-0a2061dc6540")
+	)
+	(no_connect
+		(at 138.43 83.82)
+		(uuid "d5c174bb-d3bd-4efd-97ea-521db893e365")
+	)
+	(no_connect
+		(at 138.43 99.06)
+		(uuid "d752315b-37dc-4559-83bd-6341bb3f9c22")
+	)
+	(no_connect
+		(at 151.13 83.82)
+		(uuid "d833e50a-d59c-434d-826a-35e078cfffa0")
+	)
+	(no_connect
+		(at 138.43 81.28)
+		(uuid "db424a64-7cae-481c-a5a5-26d5dc94bfb7")
+	)
+	(no_connect
+		(at 138.43 86.36)
+		(uuid "e940b0e0-0890-4183-b716-6cea1ce15b81")
+	)
+	(no_connect
+		(at 151.13 81.28)
+		(uuid "eaa05533-29e9-4ce7-84e4-2d990451e46e")
+	)
+	(no_connect
+		(at 85.09 41.91)
+		(uuid "f687ed93-800b-4ef5-ba5f-134fe0705447")
+	)
+	(no_connect
+		(at 138.43 121.92)
+		(uuid "fa5bba78-755d-479f-a5ab-0f5a9f5083ee")
+	)
+	(no_connect
+		(at 151.13 86.36)
+		(uuid "fb453d95-58aa-41a3-89a0-187e22341c18")
 	)
 	(wire
 		(pts
@@ -2074,16 +2221,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 209.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c22b39a-f45f-49dd-8d75-bd7b119374a8")
-	)
-	(wire
-		(pts
 			(xy 218.44 105.41) (xy 220.98 105.41)
 		)
 		(stroke
@@ -2114,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 209.55 100.33)
+			(xy 208.28 100.33) (xy 208.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2314,13 +2451,23 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 100.33) (xy 220.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df407782-43ea-4917-b87b-45171764e343")
+	)
+	(wire
+		(pts
 			(xy 218.44 102.87) (xy 220.98 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e66b2895-4a6f-4b5d-8a77-147a4177ac60")
+		(uuid "ed2a40e1-da4a-4dc4-baa2-5957c49ab374")
 	)
 	(wire
 		(pts
@@ -2331,16 +2478,6 @@
 			(type default)
 		)
 		(uuid "f59bea06-2771-429f-b87d-a29c7a30609e")
-	)
-	(wire
-		(pts
-			(xy 209.55 100.33) (xy 220.98 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6fb9cb4-7bf6-453d-94f4-4ee99081f5c2")
 	)
 	(wire
 		(pts
@@ -2855,18 +2992,16 @@
 		)
 	)
 	(symbol
-		(lib_name "TB007-508-03BE_2")
-		(lib_id "Blockz:TB007-508-03BE")
-		(at 231.14 118.11 0)
+		(lib_id "284391_3:284391-3")
+		(at 231.14 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19b0a2b7-1f65-4321-9e95-2744f93c4550")
-		(property "Reference" "J5"
-			(at 237.49 116.8399 0)
+		(uuid "0747c9ce-80e4-4d7d-8035-952af39cabc1")
+		(property "Reference" "J1"
+			(at 237.49 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,8 +3009,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TB007-508-03BE"
-			(at 237.49 119.3799 0)
+		(property "Value" "284391-3"
+			(at 237.49 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,18 +3018,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-			(at 231.14 118.11 0)
+		(property "Footprint" "284391_3:TE_284391-3"
+			(at 231.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB007-508-03BE/10064128"
-			(at 231.14 118.11 0)
+		(property "Datasheet" ""
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 118.11 0)
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,8 +3045,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 118.11 0)
+		(property "PARTREV" "R"
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,8 +3055,18 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "CUI"
-			(at 231.14 118.11 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 231.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,18 +3076,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "28e9c595-c54c-405f-85c3-3fba57a5dace")
+			(uuid "571a6b32-b37e-405f-9a54-dc3a84e870c3")
 		)
 		(pin "2"
-			(uuid "5ac19d46-fb8d-4272-bfbd-46b7336a95d5")
+			(uuid "d43686ab-31bd-4845-8d89-917435149c8b")
 		)
 		(pin "3"
-			(uuid "5a75a550-a402-4d9c-a0cd-fc13142847bd")
+			(uuid "412e46d5-4e81-4ec3-a3a2-d7ea7c9a83e3")
 		)
 		(instances
 			(project "Freezer test board"
 				(path "/84386131-baa8-4461-befc-fd93c7b20092"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3011,101 +3155,6 @@
 			(project "Freezer test board"
 				(path "/84386131-baa8-4461-befc-fd93c7b20092"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TB007-508-03BE_2")
-		(lib_id "Blockz:TB007-508-03BE")
-		(at 231.14 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21e794b3-779e-4f93-8600-d28dc3cb0ca2")
-		(property "Reference" "J1"
-			(at 237.49 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB007-508-03BE"
-			(at 237.49 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB007-508-03BE/10064128"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 231.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f07edf2-a1e4-4ffe-99a2-0eea2454533f")
-		)
-		(pin "2"
-			(uuid "3c6299fb-5f9e-4a15-bb26-7f6feaaa4c84")
-		)
-		(pin "3"
-			(uuid "e5e9d88a-0b8f-48a8-9e94-092e590251e9")
-		)
-		(instances
-			(project ""
-				(path "/84386131-baa8-4461-befc-fd93c7b20092"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3253,101 +3302,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TB007-508-03BE_2")
-		(lib_id "Blockz:TB007-508-03BE")
-		(at 231.14 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49ff4303-314e-416c-8e01-dfa16891e9ed")
-		(property "Reference" "J3"
-			(at 237.49 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB007-508-03BE"
-			(at 237.49 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB007-508-03BE/10064128"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30c48b43-3f0e-4902-8e6e-894f07deabb0")
-		)
-		(pin "2"
-			(uuid "5f80474b-8f66-4b00-9ddd-212249efaeb5")
-		)
-		(pin "3"
-			(uuid "dcb1652e-83ad-4825-b0a7-368f6372c47d")
-		)
-		(instances
-			(project "Freezer test board"
-				(path "/84386131-baa8-4461-befc-fd93c7b20092"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 214.63 133.35 90)
 		(unit 1)
@@ -3415,18 +3369,16 @@
 		)
 	)
 	(symbol
-		(lib_name "TB007-508-03BE_2")
-		(lib_id "Blockz:TB007-508-03BE")
-		(at 231.14 133.35 0)
+		(lib_id "284391_3:284391-3")
+		(at 231.14 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5510212a-0d72-4848-9048-61bc81a31bbd")
-		(property "Reference" "J6"
-			(at 237.49 132.0799 0)
+		(uuid "5548d6af-2d52-440a-b498-da9ccf6f434d")
+		(property "Reference" "J3"
+			(at 237.49 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,8 +3386,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TB007-508-03BE"
-			(at 237.49 134.6199 0)
+		(property "Value" "284391-3"
+			(at 237.49 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,18 +3395,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-			(at 231.14 133.35 0)
+		(property "Footprint" "284391_3:TE_284391-3"
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB007-508-03BE/10064128"
-			(at 231.14 133.35 0)
+		(property "Datasheet" ""
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 133.35 0)
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,8 +3422,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 133.35 0)
+		(property "PARTREV" "R"
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,8 +3432,18 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "CUI"
-			(at 231.14 133.35 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,18 +3453,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "436f6e56-6d6d-46a0-b16e-5fe6d13c773d")
+			(uuid "18b3aa6a-4ca5-48fc-a525-00ad7f9a4e47")
 		)
 		(pin "2"
-			(uuid "6b11f993-e025-4617-a3a8-938984eaa952")
+			(uuid "f303b7e2-1dba-41fd-8ece-5e5676ad7e44")
 		)
 		(pin "3"
-			(uuid "d071fd54-6aed-4942-8317-ba2f4431c6ac")
+			(uuid "6024efa4-ab61-4a05-8cd1-72cce66e3a63")
 		)
 		(instances
 			(project "Freezer test board"
 				(path "/84386131-baa8-4461-befc-fd93c7b20092"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3577,18 +3538,16 @@
 		)
 	)
 	(symbol
-		(lib_name "TB007-508-03BE_2")
-		(lib_id "Blockz:TB007-508-03BE")
-		(at 231.14 71.12 0)
+		(lib_id "284391_3:284391-3")
+		(at 231.14 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e1f595a-4310-4c60-8982-068ed94b8434")
-		(property "Reference" "J2"
-			(at 237.49 69.8499 0)
+		(uuid "5934350d-0746-45c9-919e-b4317ac383f1")
+		(property "Reference" "J6"
+			(at 237.49 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,8 +3555,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TB007-508-03BE"
-			(at 237.49 72.3899 0)
+		(property "Value" "284391-3"
+			(at 237.49 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,18 +3564,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-			(at 231.14 71.12 0)
+		(property "Footprint" "284391_3:TE_284391-3"
+			(at 231.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB007-508-03BE/10064128"
-			(at 231.14 71.12 0)
+		(property "Datasheet" ""
+			(at 231.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 71.12 0)
+			(at 231.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,8 +3591,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 71.12 0)
+		(property "PARTREV" "R"
+			(at 231.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,8 +3601,18 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "CUI"
-			(at 231.14 71.12 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 231.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,113 +3622,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "c32f8fe5-d629-4272-ba2c-0b13ef12ac66")
+			(uuid "e6766236-3814-4849-81e0-e9b3ef6ec599")
 		)
 		(pin "2"
-			(uuid "f4e30ef7-d773-42d5-b329-2fe0663fa482")
+			(uuid "b932ba0e-a25e-41ed-9854-24e68011bc95")
 		)
 		(pin "3"
-			(uuid "b25b3d23-7bf6-4ad6-8ec1-d13da8840e33")
+			(uuid "2892de47-73b9-48ea-9e43-9c6216aab223")
 		)
 		(instances
 			(project "Freezer test board"
 				(path "/84386131-baa8-4461-befc-fd93c7b20092"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TB007-508-03BE_2")
-		(lib_id "Blockz:TB007-508-03BE")
-		(at 231.14 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "685887f8-3770-4a99-b575-d3f8169406fd")
-		(property "Reference" "J4"
-			(at 237.49 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TB007-508-03BE"
-			(at 237.49 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TB007-508-03BE:CUI_TB007-508-03BE"
-			(at 231.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TB007-508-03BE/10064128"
-			(at 231.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI"
-			(at 231.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e594d8f-9bfb-4145-9ce5-b45006d405f8")
-		)
-		(pin "2"
-			(uuid "f8800713-6eae-45ef-ae6b-6d4ae8a90cd0")
-		)
-		(pin "3"
-			(uuid "c03475f3-a0c8-45df-87af-fa7f161cd114")
-		)
-		(instances
-			(project "Freezer test board"
-				(path "/84386131-baa8-4461-befc-fd93c7b20092"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3831,6 +3704,108 @@
 		)
 	)
 	(symbol
+		(lib_id "284391_3:284391-3")
+		(at 231.14 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76b2d498-d675-4cdb-bc2f-7cfd63ea9c6c")
+		(property "Reference" "J4"
+			(at 237.49 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "284391-3"
+			(at 237.49 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "284391_3:TE_284391-3"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5acddb7a-50e5-498b-b35f-e53fa6754dca")
+		)
+		(pin "2"
+			(uuid "1f81b344-9cf5-4bff-b2bc-56959d4f0887")
+		)
+		(pin "3"
+			(uuid "b2620ab8-379c-430d-9a3d-0d4400a8ad2c")
+		)
+		(instances
+			(project "Freezer test board"
+				(path "/84386131-baa8-4461-befc-fd93c7b20092"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 105.41 0)
 		(unit 1)
@@ -3838,7 +3813,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77aaaa7c-b0ab-4b41-a7b5-a4ec4d681755")
 		(property "Reference" "#PWR04"
 			(at 218.44 111.76 0)
@@ -3850,7 +3824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 106.6799 0)
+			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,6 +4049,108 @@
 			(project ""
 				(path "/84386131-baa8-4461-befc-fd93c7b20092"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "284391_3:284391-3")
+		(at 231.14 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9601c9ae-32f9-4617-843f-cdb010f520e6")
+		(property "Reference" "J2"
+			(at 237.49 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "284391-3"
+			(at 237.49 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "284391_3:TE_284391-3"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e630ab-6e0c-499b-b6df-adaed3618f5c")
+		)
+		(pin "2"
+			(uuid "4048cede-8048-4e46-b0e1-d1f4e9e73929")
+		)
+		(pin "3"
+			(uuid "72da9e7c-044a-4ef9-bbc8-f58d803e0c6a")
+		)
+		(instances
+			(project "Freezer test board"
+				(path "/84386131-baa8-4461-befc-fd93c7b20092"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4738,6 +4814,108 @@
 			(project ""
 				(path "/84386131-baa8-4461-befc-fd93c7b20092"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "284391_3:284391-3")
+		(at 231.14 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f451782b-d9ea-42a4-8542-ee2954b84831")
+		(property "Reference" "J5"
+			(at 237.49 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "284391-3"
+			(at 237.49 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "284391_3:TE_284391-3"
+			(at 231.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb818466-d308-4066-a511-c78de576ac28")
+		)
+		(pin "2"
+			(uuid "f3c4de65-f0a1-470a-9a3b-5f3e5ec3677a")
+		)
+		(pin "3"
+			(uuid "d122b746-c614-4ddb-97f1-f8eef03b6784")
+		)
+		(instances
+			(project "Freezer test board"
+				(path "/84386131-baa8-4461-befc-fd93c7b20092"
+					(reference "J5")
 					(unit 1)
 				)
 			)
