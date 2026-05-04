@@ -364,8 +364,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 25.4 0)
+			(property "Reference" "J7"
+				(at 1.27 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -373,14 +373,14 @@
 				)
 			)
 			(property "Value" "Conn_02x20_Odd_Even"
-				(at 1.27 -27.94 0)
+				(at 1.27 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -880,7 +880,7 @@
 				(pin passive line
 					(at -5.08 22.86 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1930,10 +1930,6 @@
 		(uuid "e01acb26-5c3f-46fb-b63d-f32631ccea57")
 	)
 	(no_connect
-		(at 106.68 30.48)
-		(uuid "20a813e2-4147-4f60-b1fa-5b958bf42fcd")
-	)
-	(no_connect
 		(at 138.43 106.68)
 		(uuid "2162abdc-dda7-40c3-b3f7-6b50acc944fd")
 	)
@@ -1944,10 +1940,6 @@
 	(no_connect
 		(at 138.43 114.3)
 		(uuid "3fc879bc-b1bd-405a-ab98-2a015f6dcb51")
-	)
-	(no_connect
-		(at 85.09 30.48)
-		(uuid "502b61f3-beb6-4b1f-a9d1-e308cdb8a90f")
 	)
 	(no_connect
 		(at 138.43 101.6)
@@ -2030,10 +2022,6 @@
 		(uuid "a522eeb9-d0bf-4c5b-b724-749807d28ce9")
 	)
 	(no_connect
-		(at 106.68 40.64)
-		(uuid "a5b02731-cf5d-4aec-b2fb-b3ea2638cdd5")
-	)
-	(no_connect
 		(at 151.13 96.52)
 		(uuid "a97bca3e-b473-406c-a652-9993cb9d8c2a")
 	)
@@ -2076,10 +2064,6 @@
 	(no_connect
 		(at 151.13 81.28)
 		(uuid "eaa05533-29e9-4ce7-84e4-2d990451e46e")
-	)
-	(no_connect
-		(at 85.09 41.91)
-		(uuid "f687ed93-800b-4ef5-ba5f-134fe0705447")
 	)
 	(no_connect
 		(at 138.43 121.92)
@@ -2218,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "4ab3c241-2145-4098-93b5-969ca92a57b3")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f32ce2f-11fe-44d6-a78f-b82ba0270496")
 	)
 	(wire
 		(pts
@@ -2378,16 +2372,6 @@
 			(type default)
 		)
 		(uuid "bd468ca7-b2db-4282-83ce-b67fa3ee0c9f")
-	)
-	(wire
-		(pts
-			(xy 153.67 114.3) (xy 151.13 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc170ea3-7d9f-4d73-a45a-7e2fd6663d59")
 	)
 	(wire
 		(pts
@@ -2619,6 +2603,28 @@
 			)
 		)
 	)
+	(global_label "GPIO6"
+		(shape input)
+		(at 152.4 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f6b5529-dbab-45ca-bfcc-308bb932f939")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape output)
 		(at 152.4 76.2 0)
@@ -2769,28 +2775,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO6"
-		(shape input)
-		(at 153.67 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d58a262b-4ce2-4d0d-a146-03db8042e85a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
