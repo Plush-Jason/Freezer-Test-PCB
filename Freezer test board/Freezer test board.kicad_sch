@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "84386131-baa8-4461-befc-fd93c7b20092")
 	(paper "USLedger")
+	(title_block
+		(comment 1 "4.7K resistors Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, ")
+	)
 	(lib_symbols
 		(symbol "284391_3:284391-3"
 			(pin_names
@@ -1897,12 +1900,6 @@
 		(uuid "975d8cd5-2dae-40b5-ac33-f4809e336aef")
 	)
 	(junction
-		(at 201.93 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "979615f5-8666-40a4-a46e-59033e866576")
-	)
-	(junction
 		(at 201.93 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1921,10 +1918,10 @@
 		(uuid "ba2da216-0667-49b0-80e1-5db86a042bc6")
 	)
 	(junction
-		(at 201.93 146.05)
+		(at 201.93 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0e2eb94-1571-4c51-935a-4313960f8254")
+		(uuid "bdc826d6-0f41-44ef-833e-ef8ef1212c0e")
 	)
 	(junction
 		(at 201.93 85.09)
@@ -1937,6 +1934,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7988478-17d3-49a5-87b0-202c03982978")
+	)
+	(junction
+		(at 201.93 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eabd76ad-0f7c-41e8-9caa-8126f81be9d1")
 	)
 	(no_connect
 		(at 151.13 124.46)
@@ -2048,16 +2051,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 146.05) (xy 207.01 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02c298eb-485f-4a98-8a7d-1917adfa6374")
-	)
-	(wire
-		(pts
 			(xy 198.12 77.47) (xy 201.93 77.47)
 		)
 		(stroke
@@ -2085,6 +2078,16 @@
 			(type default)
 		)
 		(uuid "293ea623-0703-412a-90f1-93a2fab83832")
+	)
+	(wire
+		(pts
+			(xy 201.93 153.67) (xy 207.01 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eef6e22-0c19-4ced-826d-c05bc4901d3e")
 	)
 	(wire
 		(pts
@@ -2155,16 +2158,6 @@
 			(type default)
 		)
 		(uuid "3d69cd29-5053-4469-85ee-dc9ea6bf97c4")
-	)
-	(wire
-		(pts
-			(xy 201.93 153.67) (xy 207.01 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4444e9d2-0cfc-46a9-b727-cf0532249d2a")
 	)
 	(wire
 		(pts
@@ -2455,6 +2448,16 @@
 			(type default)
 		)
 		(uuid "dfb7bc5e-f947-43ef-a850-104a5123483c")
+	)
+	(wire
+		(pts
+			(xy 201.93 146.05) (xy 207.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0745ee8-dd58-4b31-ada9-15a500dee10a")
 	)
 	(global_label "GPIO6"
 		(shape input)
@@ -2853,7 +2856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 102.87 90)
 			(effects
 				(font
@@ -3124,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 149.86 90)
 			(effects
 				(font
@@ -3555,7 +3558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 58.42 90)
 			(effects
 				(font
@@ -3921,7 +3924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 81.28 90)
 			(effects
 				(font
@@ -4184,7 +4187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 127 90)
 			(effects
 				(font
@@ -5332,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 200.66 90)
 			(effects
 				(font
@@ -5399,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 203.708 176.53 90)
 			(effects
 				(font
