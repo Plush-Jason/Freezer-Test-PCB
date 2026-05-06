@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
-%TF.CreationDate,2026-05-05T18:41:24-07:00*%
+%TF.CreationDate,2026-05-05T18:45:39-07:00*%
 %TF.ProjectId,Freezer test board,46726565-7a65-4722-9074-65737420626f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2) date 2026-05-05 18:41:24*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2026-05-05 18:45:39*
 %MOMM*%
 %LPD*%
 G01*
@@ -36,7 +36,7 @@ G04 Aperture macros list end*
 %ADD14C,1.600000*%
 %ADD15R,1.700000X1.700000*%
 %ADD16C,1.700000*%
-%ADD17C,5.000000*%
+%ADD17C,5.400000*%
 %ADD18RoundRect,0.102000X-0.825000X0.825000X-0.825000X-0.825000X0.825000X-0.825000X0.825000X0.825000X0*%
 %ADD19C,1.854000*%
 %ADD20RoundRect,0.102000X0.825000X0.825000X-0.825000X0.825000X-0.825000X-0.825000X0.825000X-0.825000X0*%
